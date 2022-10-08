@@ -1,2 +1,4 @@
-# stereo-gst
-repo for streaming stereoscopic camera frames using gstreamer using Intel Docker
+# stereo-setup
+
+- setup instructions
+- scripts for streaming pointcloud data
