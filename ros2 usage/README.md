@@ -22,3 +22,9 @@ The following command allow to change camera control values.
 ros2 run rqt_reconfigure rqt_reconfigure
 ```
 <p align="center"><img src="https://user-images.githubusercontent.com/40540281/122672659-6f458b80-d1d5-11eb-9262-545d2073e1da.png" /></p>
+
+
+## Resources
+
+https://dev.intelrealsense.com/docs/rs-motion
+
