@@ -1,0 +1,43 @@
+[0.022s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.043s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.251s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.742s] -- Configuring done
+[0.781s] -- Generating done
+[0.784s] -- Build files have been written to: /home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool
+[0.794s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.795s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool -- -j2 -l2
+[0.840s] [35m[1mScanning dependencies of target launch_tool_autogen[0m
+[0.852s] [ 25%] [34m[1mAutomatic MOC and UIC for target launch_tool[0m
+[0.884s] [ 25%] Built target launch_tool_autogen
+[0.894s] [35m[1mScanning dependencies of target launch_tool[0m
+[0.977s] [ 50%] [32mBuilding CXX object CMakeFiles/launch_tool.dir/launch_tool_autogen/mocs_compilation.cpp.o[0m
+[0.986s] [ 75%] [32mBuilding CXX object CMakeFiles/launch_tool.dir/src/tool.cpp.o[0m
+[5.449s] [100%] [32m[1mLinking CXX executable launch_tool[0m
+[6.163s] [100%] Built target launch_tool
+[6.180s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool -- -j2 -l2
+[6.223s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool
+[6.234s] -- Install configuration: ""
+[6.234s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/lib/launch_tool/launch_tool
+[6.234s] -- Set runtime path of "/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/lib/launch_tool/launch_tool" to ""
+[6.235s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/ament_index/resource_index/package_run_dependencies/launch_tool
+[6.235s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/ament_index/resource_index/parent_prefix_path/launch_tool
+[6.235s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/environment/ament_prefix_path.sh
+[6.235s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/environment/ament_prefix_path.dsv
+[6.235s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/environment/path.sh
+[6.236s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/environment/path.dsv
+[6.236s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/local_setup.bash
+[6.236s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/local_setup.sh
+[6.237s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/local_setup.zsh
+[6.237s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/local_setup.dsv
+[6.237s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/package.dsv
+[6.237s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/ament_index/resource_index/packages/launch_tool
+[6.237s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/cmake/launch_toolConfig.cmake
+[6.237s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/cmake/launch_toolConfig-version.cmake
+[6.238s] -- Installing: /home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool/share/launch_tool/package.xml
+[6.240s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool

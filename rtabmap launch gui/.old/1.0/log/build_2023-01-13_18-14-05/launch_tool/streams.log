@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.186s] -- The C compiler identification is GNU 9.4.0
+[0.262s] -- The CXX compiler identification is GNU 9.4.0
+[0.273s] -- Check for working C compiler: /usr/bin/cc
+[0.353s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.357s] -- Detecting C compiler ABI info
+[0.444s] -- Detecting C compiler ABI info - done
+[0.456s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.557s] -- Detecting CXX compiler ABI info
+[0.634s] -- Detecting CXX compiler ABI info - done
+[0.646s] -- Detecting CXX compile features
+[0.647s] -- Detecting CXX compile features - done
+[0.664s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.704s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.704s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.993s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.100s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.100s]   ament_target_dependencies() the first argument must be a valid target name
+[1.100s] Call Stack (most recent call first):
+[1.100s]   CMakeLists.txt:42 (ament_target_dependencies)
+[1.100s] 
+[1.100s] 
+[1.100s] -- Configuring incomplete, errors occurred!
+[1.100s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeOutput.log".
+[1.108s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool

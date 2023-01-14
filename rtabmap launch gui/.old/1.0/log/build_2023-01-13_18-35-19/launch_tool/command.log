@@ -1,0 +1,2 @@
+Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool

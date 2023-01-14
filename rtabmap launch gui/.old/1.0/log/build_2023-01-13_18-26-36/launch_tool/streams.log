@@ -1,0 +1,31 @@
+[0.017s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.037s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.316s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.436s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.572s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.606s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.739s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.840s] -- Looking for pthread.h
+[0.943s] -- Looking for pthread.h - found
+[0.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.032s] -- Looking for pthread_create in pthreads
+[1.095s] -- Looking for pthread_create in pthreads - not found
+[1.095s] -- Looking for pthread_create in pthread
+[1.170s] -- Looking for pthread_create in pthread - found
+[1.172s] -- Found Threads: TRUE  
+[1.392s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.392s]   ament_target_dependencies() the passed package name 'Qt5::Widgets' was not
+[1.392s]   found before
+[1.392s] Call Stack (most recent call first):
+[1.392s]   CMakeLists.txt:29 (ament_target_dependencies)
+[1.392s] 
+[1.393s] 
+[1.394s] -- Configuring incomplete, errors occurred!
+[1.394s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeOutput.log".
+[1.394s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeError.log".
+[1.404s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool

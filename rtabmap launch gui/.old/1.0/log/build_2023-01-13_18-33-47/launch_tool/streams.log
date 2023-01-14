@@ -1,0 +1,20 @@
+[0.020s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.040s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.245s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.285s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.492s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.503s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.735s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.735s]   ament_target_dependencies() the passed package name 'QtWidgets' was not
+[0.735s]   found before
+[0.735s] Call Stack (most recent call first):
+[0.735s]   CMakeLists.txt:33 (ament_target_dependencies)
+[0.735s] 
+[0.735s] 
+[0.737s] -- Configuring incomplete, errors occurred!
+[0.737s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeOutput.log".
+[0.737s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeError.log".
+[0.745s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool

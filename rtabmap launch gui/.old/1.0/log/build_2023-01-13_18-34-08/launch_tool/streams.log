@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.036s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.283s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.508s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.681s]   By not providing "FindQtWidgets.cmake" in CMAKE_MODULE_PATH this project
+[0.681s]   has asked CMake to find a package configuration file provided by
+[0.681s]   "QtWidgets", but CMake did not find one.
+[0.681s] 
+[0.681s]   Could not find a package configuration file provided by "QtWidgets" with
+[0.681s]   any of the following names:
+[0.681s] 
+[0.682s]     QtWidgetsConfig.cmake
+[0.682s]     qtwidgets-config.cmake
+[0.682s] 
+[0.682s]   Add the installation prefix of "QtWidgets" to CMAKE_PREFIX_PATH or set
+[0.682s]   "QtWidgets_DIR" to a directory containing one of the above files.  If
+[0.682s]   "QtWidgets" provides a separate development package or SDK, be sure it has
+[0.682s]   been installed.
+[0.682s] 
+[0.683s] 
+[0.684s] -- Configuring incomplete, errors occurred!
+[0.684s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeOutput.log".
+[0.685s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeError.log".
+[0.692s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool

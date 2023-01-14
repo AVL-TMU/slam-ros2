@@ -1,0 +1,18 @@
+[0.016s] Invoking command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
+[0.035s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.248s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.308s] CMake Error at CMakeLists.txt:41 (add_executable):
+[0.308s]   The target name "src/tool.cpp" is reserved or not valid for certain CMake
+[0.309s]   features, such as generator expressions, and may result in undefined
+[0.309s]   behavior.
+[0.309s] 
+[0.309s] 
+[0.309s] CMake Error at CMakeLists.txt:42 (target_link_libraries):
+[0.309s]   Cannot specify link libraries for target "launch_tool_node" which is not
+[0.309s]   built by this project.
+[0.309s] 
+[0.309s] 
+[0.310s] -- Configuring incomplete, errors occurred!
+[0.310s] See also "/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool/CMakeFiles/CMakeOutput.log".
+[0.314s] Invoked command in '/home/ros/github/stereo-gst/rtabmap launch gui/build/launch_tool' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/rtabmap launch gui/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool
