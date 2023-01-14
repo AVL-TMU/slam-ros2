@@ -1,6 +1,8 @@
-# stereo-setup
+# slam-ros2
 
-- install instructions
-- setup instructions
+Main Author: Tanmay B. (@tanmayyb)
+
+- install and setup instructions
 - usage instructions
 - scripts for streaming pointcloud data
+- gui tool for launching streaming nodes
