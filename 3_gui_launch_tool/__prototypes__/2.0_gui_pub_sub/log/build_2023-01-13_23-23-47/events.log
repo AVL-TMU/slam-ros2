@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000571] (launch_tool) JobQueued: {'identifier': 'launch_tool', 'dependencies': OrderedDict()}
+[0.002486] (launch_tool) JobStarted: {'identifier': 'launch_tool'}
+[0.015230] (launch_tool) JobProgress: {'identifier': 'launch_tool', 'progress': 'cmake'}
+[0.015911] (launch_tool) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/launch_tool', '-DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool'], 'cwd': '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SSH_AGENT_PID', '1326'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1022'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5f955fc5d5b61d2bd133b5b763c20ad2'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install:/home/ros/github/stereo-gst/rtabmap launch gui/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:49850'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1371,unix/ubuntu:/tmp/.ICE-unix/1371'), ('INVOCATION_ID', 'df356f1d3e7d44439c707a1128f60c6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a6c7466_9e8e_4b4c_8af2_f6872e9876df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5f955fc5d5b61d2bd133b5b763c20ad2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool:/opt/ros/foxy')]), 'shell': False}
+[0.082893] (launch_tool) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.101759] (-) TimerEvent: {}
+[0.152702] (launch_tool) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.157477] (launch_tool) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.201909] (-) TimerEvent: {}
+[0.224317] (launch_tool) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.225304] (launch_tool) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.294574] (launch_tool) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.302397] (-) TimerEvent: {}
+[0.305540] (launch_tool) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.305866] (launch_tool) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.308206] (launch_tool) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.390594] (launch_tool) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.391577] (launch_tool) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402661] (-) TimerEvent: {}
+[0.474019] (launch_tool) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.485941] (launch_tool) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.486377] (launch_tool) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.488182] (launch_tool) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.503072] (-) TimerEvent: {}
+[0.511751] (launch_tool) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.511948] (launch_tool) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.603216] (-) TimerEvent: {}
+[0.696193] (launch_tool) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.703524] (-) TimerEvent: {}
+[0.740588] (launch_tool) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.746442] (launch_tool) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.803706] (-) TimerEvent: {}
+[0.820033] (launch_tool) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.848136] (launch_tool) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.903997] (-) TimerEvent: {}
+[0.922546] (launch_tool) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.980333] (launch_tool) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.981702] (launch_tool) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.982517] (launch_tool) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.004436] (-) TimerEvent: {}
+[1.051020] (launch_tool) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.051319] (launch_tool) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.104553] (-) TimerEvent: {}
+[1.122872] (launch_tool) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.123099] (launch_tool) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.181507] (launch_tool) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.181908] (launch_tool) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.204685] (-) TimerEvent: {}
+[1.252236] (launch_tool) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.254274] (launch_tool) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.305076] (-) TimerEvent: {}
+[1.405587] (-) TimerEvent: {}
+[1.475464] (launch_tool) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.506230] (-) TimerEvent: {}
+[1.506845] (launch_tool) StdoutLine: {'line': b'-- Generating done\n'}
+[1.508662] (launch_tool) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool\n'}
+[1.518122] (launch_tool) CommandEnded: {'returncode': 0}
+[1.518903] (launch_tool) JobProgress: {'identifier': 'launch_tool', 'progress': 'build'}
+[1.518942] (launch_tool) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool', '--', '-j2', '-l2'], 'cwd': '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SSH_AGENT_PID', '1326'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1022'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5f955fc5d5b61d2bd133b5b763c20ad2'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install:/home/ros/github/stereo-gst/rtabmap launch gui/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:49850'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1371,unix/ubuntu:/tmp/.ICE-unix/1371'), ('INVOCATION_ID', 'df356f1d3e7d44439c707a1128f60c6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a6c7466_9e8e_4b4c_8af2_f6872e9876df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5f955fc5d5b61d2bd133b5b763c20ad2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool:/opt/ros/foxy')]), 'shell': False}
+[1.561598] (launch_tool) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub_autogen\x1b[0m\n'}
+[1.561951] (launch_tool) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_autogen\x1b[0m\n'}
+[1.571447] (launch_tool) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target pub\x1b[0m\n'}
+[1.571774] (launch_tool) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target sub\x1b[0m\n'}
+[1.603778] (launch_tool) StdoutLine: {'line': b'[ 25%] Built target sub_autogen\n'}
+[1.606493] (-) TimerEvent: {}
+[1.609320] (launch_tool) StdoutLine: {'line': b'[ 25%] Built target pub_autogen\n'}
+[1.615220] (launch_tool) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub\x1b[0m\n'}
+[1.620065] (launch_tool) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub\x1b[0m\n'}
+[1.653327] (launch_tool) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/sub_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.685518] (launch_tool) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[1.704674] (launch_tool) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/pub_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.706590] (-) TimerEvent: {}
+[1.730990] (launch_tool) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[1.806999] (-) TimerEvent: {}
+[1.907348] (-) TimerEvent: {}
+[2.007895] (-) TimerEvent: {}
+[2.108805] (-) TimerEvent: {}
+[2.209174] (-) TimerEvent: {}
+[2.309539] (-) TimerEvent: {}
+[2.410055] (-) TimerEvent: {}
+[2.510532] (-) TimerEvent: {}
+[2.611095] (-) TimerEvent: {}
+[2.711690] (-) TimerEvent: {}
+[2.812018] (-) TimerEvent: {}
+[2.912796] (-) TimerEvent: {}
+[3.013317] (-) TimerEvent: {}
+[3.113877] (-) TimerEvent: {}
+[3.214231] (-) TimerEvent: {}
+[3.314595] (-) TimerEvent: {}
+[3.414953] (-) TimerEvent: {}
+[3.515326] (-) TimerEvent: {}
+[3.615821] (-) TimerEvent: {}
+[3.716349] (-) TimerEvent: {}
+[3.816894] (-) TimerEvent: {}
+[3.917289] (-) TimerEvent: {}
+[4.017645] (-) TimerEvent: {}
+[4.117986] (-) TimerEvent: {}
+[4.218339] (-) TimerEvent: {}
+[4.318877] (-) TimerEvent: {}
+[4.419443] (-) TimerEvent: {}
+[4.519948] (-) TimerEvent: {}
+[4.620375] (-) TimerEvent: {}
+[4.720760] (-) TimerEvent: {}
+[4.821064] (-) TimerEvent: {}
+[4.921477] (-) TimerEvent: {}
+[5.021801] (-) TimerEvent: {}
+[5.133245] (-) TimerEvent: {}
+[5.233784] (-) TimerEvent: {}
+[5.334263] (-) TimerEvent: {}
+[5.435050] (-) TimerEvent: {}
+[5.535541] (-) TimerEvent: {}
+[5.636099] (-) TimerEvent: {}
+[5.736670] (-) TimerEvent: {}
+[5.837166] (-) TimerEvent: {}
+[5.937494] (-) TimerEvent: {}
+[6.037894] (-) TimerEvent: {}
+[6.138416] (-) TimerEvent: {}
+[6.238846] (-) TimerEvent: {}
+[6.339364] (-) TimerEvent: {}
+[6.439883] (-) TimerEvent: {}
+[6.540512] (-) TimerEvent: {}
+[6.641075] (-) TimerEvent: {}
+[6.741743] (-) TimerEvent: {}
+[6.842160] (-) TimerEvent: {}
+[6.942629] (-) TimerEvent: {}
+[7.043156] (-) TimerEvent: {}
+[7.143630] (-) TimerEvent: {}
+[7.244082] (-) TimerEvent: {}
+[7.344524] (-) TimerEvent: {}
+[7.445013] (-) TimerEvent: {}
+[7.545390] (-) TimerEvent: {}
+[7.645715] (-) TimerEvent: {}
+[7.746387] (-) TimerEvent: {}
+[7.847095] (-) TimerEvent: {}
+[7.947529] (-) TimerEvent: {}
+[8.048023] (-) TimerEvent: {}
+[8.148563] (-) TimerEvent: {}
+[8.249011] (-) TimerEvent: {}
+[8.349534] (-) TimerEvent: {}
+[8.450127] (-) TimerEvent: {}
+[8.550575] (-) TimerEvent: {}
+[8.651110] (-) TimerEvent: {}
+[8.751588] (-) TimerEvent: {}
+[8.792118] (launch_tool) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable sub\x1b[0m\n'}
+[8.852040] (-) TimerEvent: {}
+[8.952739] (-) TimerEvent: {}
+[9.046698] (launch_tool) StdoutLine: {'line': b'[ 87%] Built target sub\n'}
+[9.052855] (-) TimerEvent: {}
+[9.153433] (-) TimerEvent: {}
+[9.254261] (-) TimerEvent: {}
+[9.355633] (-) TimerEvent: {}
+[9.448375] (launch_tool) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[9.456354] (-) TimerEvent: {}
+[9.556780] (-) TimerEvent: {}
+[9.657241] (-) TimerEvent: {}
+[9.757739] (-) TimerEvent: {}
+[9.858548] (-) TimerEvent: {}
+[9.958999] (-) TimerEvent: {}
+[10.059378] (-) TimerEvent: {}
+[10.142792] (launch_tool) StdoutLine: {'line': b'[100%] Built target pub\n'}
+[10.156697] (launch_tool) CommandEnded: {'returncode': 0}
+[10.159567] (-) TimerEvent: {}
+[10.214324] (launch_tool) JobProgress: {'identifier': 'launch_tool', 'progress': 'install'}
+[10.226737] (launch_tool) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool'], 'cwd': '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SSH_AGENT_PID', '1326'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1022'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5f955fc5d5b61d2bd133b5b763c20ad2'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install:/home/ros/github/stereo-gst/rtabmap launch gui/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:49850'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1371,unix/ubuntu:/tmp/.ICE-unix/1371'), ('INVOCATION_ID', 'df356f1d3e7d44439c707a1128f60c6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a6c7466_9e8e_4b4c_8af2_f6872e9876df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5f955fc5d5b61d2bd133b5b763c20ad2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool:/home/ros/github/stereo-gst/3_gui_launch_tool/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/2.0/install/launch_tool:/home/ros/github/stereo-gst/rtabmap launch gui/install/launch_tool:/opt/ros/foxy')]), 'shell': False}
+[10.239922] (launch_tool) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.240387] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/pub\n'}
+[10.241399] (launch_tool) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/pub" to ""\n'}
+[10.241622] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/sub\n'}
+[10.243227] (launch_tool) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/sub" to ""\n'}
+[10.243500] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/ament_index/resource_index/package_run_dependencies/launch_tool\n'}
+[10.243793] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/ament_index/resource_index/parent_prefix_path/launch_tool\n'}
+[10.244100] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/ament_prefix_path.sh\n'}
+[10.244374] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/ament_prefix_path.dsv\n'}
+[10.244649] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/path.sh\n'}
+[10.244940] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/path.dsv\n'}
+[10.245225] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.bash\n'}
+[10.245538] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.sh\n'}
+[10.245797] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.zsh\n'}
+[10.246036] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.dsv\n'}
+[10.246299] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/package.dsv\n'}
+[10.246618] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/ament_index/resource_index/packages/launch_tool\n'}
+[10.246913] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/cmake/launch_toolConfig.cmake\n'}
+[10.247123] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/cmake/launch_toolConfig-version.cmake\n'}
+[10.247407] (launch_tool) StdoutLine: {'line': b'-- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/package.xml\n'}
+[10.253406] (launch_tool) CommandEnded: {'returncode': 0}
+[10.260313] (-) TimerEvent: {}
+[10.310296] (launch_tool) JobEnded: {'identifier': 'launch_tool', 'rc': 0}
+[10.313207] (-) EventReactorShutdown: {}

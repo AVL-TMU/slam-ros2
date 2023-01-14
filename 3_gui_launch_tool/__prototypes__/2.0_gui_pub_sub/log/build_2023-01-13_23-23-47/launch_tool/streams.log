@@ -1,0 +1,79 @@
+[0.018s] Invoking command in '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool
+[0.080s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.222s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.223s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.303s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.389s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.483s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.509s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.509s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.694s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.846s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.979s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.980s] -- Looking for pthread.h
+[1.049s] -- Looking for pthread.h - found
+[1.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.120s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.121s] -- Looking for pthread_create in pthreads
+[1.179s] -- Looking for pthread_create in pthreads - not found
+[1.179s] -- Looking for pthread_create in pthread
+[1.250s] -- Looking for pthread_create in pthread - found
+[1.252s] -- Found Threads: TRUE  
+[1.473s] -- Configuring done
+[1.504s] -- Generating done
+[1.506s] -- Build files have been written to: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool
+[1.516s] Invoked command in '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/launch_tool -DCMAKE_INSTALL_PREFIX=/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool
+[1.517s] Invoking command in '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool -- -j2 -l2
+[1.559s] [35m[1mScanning dependencies of target sub_autogen[0m
+[1.559s] [35m[1mScanning dependencies of target pub_autogen[0m
+[1.569s] [ 25%] [34m[1mAutomatic MOC and UIC for target pub[0m
+[1.569s] [ 25%] [34m[1mAutomatic MOC and UIC for target sub[0m
+[1.601s] [ 25%] Built target sub_autogen
+[1.607s] [ 25%] Built target pub_autogen
+[1.613s] [35m[1mScanning dependencies of target sub[0m
+[1.618s] [35m[1mScanning dependencies of target pub[0m
+[1.651s] [ 37%] [32mBuilding CXX object CMakeFiles/sub.dir/sub_autogen/mocs_compilation.cpp.o[0m
+[1.683s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.702s] [ 62%] [32mBuilding CXX object CMakeFiles/pub.dir/pub_autogen/mocs_compilation.cpp.o[0m
+[1.729s] [ 75%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[8.790s] [ 87%] [32m[1mLinking CXX executable sub[0m
+[9.044s] [ 87%] Built target sub
+[9.446s] [100%] [32m[1mLinking CXX executable pub[0m
+[10.140s] [100%] Built target pub
+[10.155s] Invoked command in '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool -- -j2 -l2
+[10.225s] Invoking command in '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool
+[10.237s] -- Install configuration: ""
+[10.238s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/pub
+[10.239s] -- Set runtime path of "/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/pub" to ""
+[10.239s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/sub
+[10.241s] -- Set runtime path of "/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/lib/launch_tool/sub" to ""
+[10.241s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/ament_index/resource_index/package_run_dependencies/launch_tool
+[10.241s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/ament_index/resource_index/parent_prefix_path/launch_tool
+[10.242s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/ament_prefix_path.sh
+[10.242s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/ament_prefix_path.dsv
+[10.242s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/path.sh
+[10.242s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/environment/path.dsv
+[10.243s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.bash
+[10.243s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.sh
+[10.243s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.zsh
+[10.244s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/local_setup.dsv
+[10.244s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/package.dsv
+[10.244s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/ament_index/resource_index/packages/launch_tool
+[10.244s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/cmake/launch_toolConfig.cmake
+[10.245s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/cmake/launch_toolConfig-version.cmake
+[10.245s] -- Installing: /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/install/launch_tool/share/launch_tool/package.xml
+[10.251s] Invoked command in '/home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros/github/stereo-gst/3_gui_launch_tool/__prototypes__/2.0_gui_pub_sub/build/launch_tool
