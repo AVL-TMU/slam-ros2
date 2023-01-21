@@ -4,6 +4,6 @@ https://github.com/introlab/rtabmap_ros/issues/548 </br>
 Do this using
 ```
 sudo apt-get purge *libopencv*
-``
+```
 And build opencv using these instructions: </br>
 https://github.com/teamr3/getting-started/tree/master/jetson%20nano%204gb/opencv_source%20(os-depend)
